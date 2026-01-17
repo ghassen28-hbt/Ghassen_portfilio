@@ -126,7 +126,7 @@ export default function Home() {
                 
                 {/* Image */}
                 <img
-                  src="moi.png"
+                  src="/moi.png"
                   alt="Ghassen Mbarki"
                   className="w-full rounded-lg relative z-10"
                 />
