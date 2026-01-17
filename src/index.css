@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Theme tokens (dark defaults) */
+  --color-primary: #0F172A; /* Bleu nuit */
+  --color-secondary: #1E293B; /* Gris bleuté */
+  --color-accent: #38BDF8; /* Bleu clair */
+  --color-text: #E5E7EB; /* Gris clair */
+  --color-bg: #020617; /* Très sombre */
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Light mode token overrides */
+    --color-primary: #F8FAFC;
+    --color-secondary: #E2E8F0;
+    --color-accent: #0EA5E9;
+    --color-text: #0F172A;
+    --color-bg: #FFFFFF;
+
+    color: var(--color-text);
+    background-color: var(--color-bg);
+  }
+  a:hover {
+    color: var(--color-accent);
+  }
+  button {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+  }
+
+  /* Fix text visibility in light mode */
+  .text-gray-300,
+  .text-gray-400 {
+    color: #475569 !important;
+  }
+
+  .text-gray-400 {
+    color: #64748B !important;
+  }
+
+  /* Fix backgrounds in light mode */
+  .bg-gray-900\/40 {
+    background-color: rgba(241, 245, 249, 0.8) !important;
+    border-color: rgba(226, 232, 240, 0.8) !important;
+  }
+
+  .bg-gray-900 {
+    background-color: #F8FAFC !important;
+  }
+
+  /* Fix section backgrounds */
+  section {
+    background-color: #FFFFFF;
+  }
+
+  /* OutlineWrapper */
+  .border-accent {
+    border-color: var(--color-accent) !important;
+  }
+
+  /* Text color overrides for light mode */
+  .text-accent {
+    color: var(--color-accent) !important;
+  }
+}
+
+/* Force light mode when .dark class is NOT present */
+html:not(.dark) {
+  --color-primary: #F0F9FF;
+  --color-secondary: #E0F2FE;
+  --color-accent: #0284C7;
+  --color-text: #0C2340;
+  --color-bg: #FFFFFF;
+  
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+html:not(.dark) .text-gray-300 {
+  color: #475569 !important;
+}
+
+html:not(.dark) .text-gray-400 {
+  color: #64748B !important;
+}
+
+html:not(.dark) .bg-gray-900\/40 {
+  background-color: rgba(224, 242, 254, 0.6) !important;
+  border-color: rgba(14, 165, 233, 0.3) !important;
+}
+
+html:not(.dark) .bg-gray-900 {
+  background-color: #F0F9FF !important;
+}
+
+html:not(.dark) .text-accent {
+  color: #0284C7 !important;
+}
+
+html:not(.dark) .border-accent {
+  border-color: #0284C7 !important;
+}
+
+html:not(.dark) .border-accent\/30 {
+  border-color: rgba(14, 165, 233, 0.3) !important;
+}
+
+html:not(.dark) section {
+  background-color: #FFFFFF;
+}
+
+html:not(.dark) .project-card,
+html:not(.dark) .glass-card {
+  background: rgba(224, 242, 254, 0.4) !important;
+  border-color: rgba(14, 165, 233, 0.4) !important;
+}
+
+html:not(.dark) .project-card:hover,
+html:not(.dark) .glass-card:hover {
+  background: rgba(224, 242, 254, 0.6) !important;
+  border-color: #0284C7 !important;
+}
+
+html:not(.dark) .cursor {
+  color: #0284C7 !important;
+}
