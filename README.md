@@ -1,16 +1,127 @@
-# React + Vite
+# 🚀 Ghassen Mbarki - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, fully responsive portfolio website showcasing projects, skills, and professional experience with stunning animations and seamless user experience.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19.2.0-blue?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.19-06B6D4?logo=tailwindcss)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.26.2-black)
+![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👋 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hello! I'm **Ghassen Mbarki**, a passionate **Business Information Systems student** at ISGT University in Tunis. I'm dedicated to building smart and efficient software solutions that blend creativity with solid engineering principles. I believe in combining clean design with robust code to transform ideas into reality.
 
-## Expanding the ESLint configuration
+### My Passion
+- **Problem Solving** - Creating innovative solutions for real-world challenges
+- **UI/UX Design** - Building intuitive and beautiful user interfaces
+- **Full-Stack Development** - Comfortable working across the entire tech stack
+- **Responsive Design** - Ensuring seamless experiences on all devices
+- **Performance** - Optimizing applications for speed and efficiency
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📋 Project Overview
+
+This portfolio website is a showcase of my technical expertise and professional work. It features:
+
+**Modern Design** - Clean, minimal aesthetic with smooth animations
+ **Dark/Light Mode** - Seamless theme switching
+ **Multi-Language** - Full support for English & French
+ **Fully Responsive** - Perfect on mobile, tablet, and desktop
+ **High Performance** - Optimized for fast loading and smooth interactions
+ **Smooth Animations** - Professional motion design with Framer Motion
+ **Easy Navigation** - Intuitive UI with smooth scrolling
+
+---
+
+
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React 19.2.0** - UI library
+- **Vite 7.2.4** - Build tool and dev server
+- **Tailwind CSS 3.4.19** - Utility-first CSS framework
+- **Framer Motion 12.26.2** - Animation library
+- **React Icons 5.5.0** - Icon library
+- **TSParticles 3.9.1** - Particle animation effects
+
+### Internationalization
+- **i18next 25.7.4** - Internationalization framework
+- **react-i18next 16.5.3** - React integration for i18n
+- **i18next-browser-languagedetector 8.2.0** - Auto language detection
+
+### Development Tools
+- **ESLint 9.39.1** - Code quality
+- **PostCSS 8.5.6** - CSS preprocessing
+- **Autoprefixer 10.4.23** - Vendor prefixing
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ghassen28-hbt/Ghassen_portfolio.git
+cd my-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The app will open at `http://localhost:3001` with hot module replacement enabled.
+
+---
+
+##  Responsive Design
+
+This portfolio is **fully responsive** and tested on:
+- Mobile devices (320px+)
+-  Tablets (768px+)
+-  Desktop screens (1024px+)
+-  Large displays (1440px+)
+
+All breakpoints use Tailwind's responsive prefixes:
+- `sm:` - Small screens (640px+)
+- `md:` - Medium screens (768px+)
+- `lg:` - Large screens (1024px+)
+- `xl:` - Extra large screens (1280px+)
+
+---
+
+##  Internationalization
+
+The portfolio supports multiple languages:
+
+### English & Français
+- Auto-detection of browser language
+- Manual language switching
+- Persistent language preference (localStorage)
+- All content translated
+
+## 🤝 Connect With Me
+
+- [GitHub](https://github.com/ghassen28-hbt/)
+- [LinkedIn](https://www.linkedin.com/in/ghassen-mbarki-593ba8322/)
+- [Instagram](https://www.instagram.com/mbarki_ghassen_/)
+- [Email](mailto:ghassenmbarki116@gmail.com)
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+
+** by Ghassen Mbarki**
+
+
